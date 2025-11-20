@@ -103,8 +103,8 @@ export const City = ({lat, lon, closeCity}: {
                 <div className="w-full flex items-center">
                   <img src={`https://openweathermap.org/img/wn/${weather.icon}@2x.png`} className="scale-[100%]" />
                   <div className="flex flex-col items-start gap-0">
-                    <div className="text-xl font-semibold">{weather.main}</div>
-                    <div className="text-gray-300 text-sm font-light">{weather.description}</div>
+                    <div className="text-2xl font-semibold">{weather.main}</div>
+                    <div className="text-gray-300 text-md font-light">{weather.description}</div>
                   </div>
                 </div>
               )}

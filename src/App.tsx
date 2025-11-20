@@ -13,7 +13,7 @@ function App() {
 
           <Header />
 
-          <main className="w-full flex justify-center h-full bg-gradient-to-b from-[#2a3540] to-[#302a40] p-3 lg:p-6">
+          <main className="w-full flex justify-center h-full bg-gradient-to-b from-[#2a3540] to-[#252525] p-3 lg:p-4">
             <div className="w-full w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%]">
               <Routes>
                 <Route path="/" element={<Home />} />

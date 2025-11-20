@@ -13,7 +13,10 @@ export const SearchResults = ({results, handleClickCity}: {
         return (
           <div
             key={index}
-            className="w-full flex flex-col items-start gap-0 bg-[rgba(255,255,255,0.1)] text-white rounded-md cursor-pointer py-2"
+            className={`
+              w-full flex flex-col items-start gap-0 bg-[rgba(200,200,200,0.1)] hover:bg-[rgba(180,180,180,0.15)]
+              transition duration-100 text-white rounded-md cursor-pointer py-2
+            `}
             onClick={() => handleClickCity(r.lat, r.lon)}
           >
 
