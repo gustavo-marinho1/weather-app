@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Wweather App
+Weather app was developed by Gustavo Marinho. You can check the weather in any city.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology
 
-## React Compiler
+* Typescript
+* React
+* Vite.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Services Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Github
+* API: https://openweathermap.org/api
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* To install the dependencies:
+>    npm install
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* To run the project:
+>    npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ - Initial Page
+
+ ![Initial page](https://github.com/gustavo-marinho1/weather-app/blob/main/src/assets/initial-page.png)
+
+ - Initial Page with History
+
+ ![Initial page](https://github.com/gustavo-marinho1/weather-app/blob/main/src/assets/initial-page-history.png)
+
+ - Searching Page
+
+ ![Initial page](https://github.com/gustavo-marinho1/weather-app/blob/main/src/assets/searching.png)
+
+ - City Weather Page
+
+ ![Initial page](https://github.com/gustavo-marinho1/weather-app/blob/main/src/assets/city-weather.png)
+
+
+## Links
+  - Repository: https://github.com/gustavo-marinho1/weather-app
+
+
+  ## Authors
+
+  * **Gustavo Marinho** 
+
+  Please follow github and join me!
+  Thanks for visiting and good coding!
