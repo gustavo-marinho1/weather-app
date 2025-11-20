@@ -8,7 +8,8 @@ Weather app was developed by Gustavo Marinho. You can check the weather in any c
 * Typescript
 * React
 * Vite.js
-
+* Redux
+* Axios
 
 ## Services Used
 
